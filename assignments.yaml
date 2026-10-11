@@ -1,0 +1,38 @@
+- notebook: colors
+  testfile: test_colors
+  deadline: 2026-10-28
+  tests:
+    - name: TestLoadImage
+      points: 1
+      params:
+        rgb: rgb
+    - name: TestBboxAndCentroid
+      points: 2
+      params:
+        bbox_and_centroid_fn: bbox_and_centroid
+    - name: TestSegmentationRGB
+      points: 5
+      params:
+        mask: mask_rgb
+        bbox: bbox_rgb
+        centroid: centroid_rgb
+    - name: TestSegmentationHSV
+      points: 3
+      params:
+        mask: mask_hsv
+        bbox: bbox_hsv
+        centroid: centroid_hsv
+    - name: TestHueHistogram
+      points: 2
+      params:
+        hist: hist
+    - name: TestBackprojection
+      points: 1
+      params:
+        backproj: backproj
+    - name: TestSegmentationBackprojection
+      points: 3
+      params:
+        mask: mask_bp
+        bbox: bbox_bp
+        centroid: centroid_bp
