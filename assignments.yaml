@@ -1,6 +1,6 @@
 - notebook: colors
   testfile: test_colors
-  deadline: 2026-10-28
+  deadline: 2026-11-01
   tests:
     - name: TestLoadImage
       points: 1
