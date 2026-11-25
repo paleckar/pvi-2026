@@ -139,3 +139,48 @@
       bonus: true
       params:
         ocr_cze_id_fn: ocr_cze_id
+
+- notebook: digit_recognition
+  testfile: test_digit_recognition
+  deadline: 2026-12-07
+  tests:
+    - name: TestSplit
+      points: 2
+      params:
+        split_fn: split_data
+    - name: TestData
+      points: 1
+      params:
+        inputs_train: inputs_train
+        inputs_val: inputs_val
+        labels_train: labels_train
+        labels_val: labels_val
+    - name: TestPredict
+      points: 2
+      params:
+        predict_fn: predict
+        accuracy_fn: accuracy
+    - name: TestLoss
+      points: 5
+      params:
+        loss_fn: softmax_loss
+    - name: TestAccuracy
+      points: 5
+      params:
+        weights: weights
+        bias: bias
+        inputs_train: inputs_train
+        inputs_val: inputs_val
+        labels_train: labels_train
+        labels_val: labels_val
+        predict_fn: predict
+        accuracy_fn: accuracy
+    - name: TestOwnImage
+      points: 5
+      bonus: true
+      params:
+        extract_fn: extract_digits
+        weights: weights
+        bias: bias
+        predict_fn: predict
+        accuracy_fn: accuracy
