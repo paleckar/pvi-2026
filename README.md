@@ -9,6 +9,7 @@
 | 3. | 8.10.2026  | [Lokální zájmové body a oblasti II](slides/pvi-03-features.pdf) | SIFT, approx. NN, SURF, MSER, ORB a další                          |
 | 4. | 15.10.2026 | [Zarovnání obrazů](slides/pvi-04-registration.pdf)              | geometrické transformace a odhad, RANSAC, Hough, detekce, panorama |
 | 5. | 29.10.2026 | [Kalibrace kamery, stereo](slides/pvi-05-stereo.pdf)            | lin. model, kalibrace, stereo, epipolární geometrie, triangulace   |
+| 6. | 19.11.2026 | [Úvod do strojového učení a klasifikace](slides/pvi-07-ml.pdf)  | lin. klasifikace, gradient descent, zpětná propagace, MLP          |
 
 
 ## Cvičení
