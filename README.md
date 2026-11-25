@@ -8,6 +8,7 @@
 | 2. | 1.10.2026  | [Lokální zájmové body a oblasti I](slides/pvi-02-keypoints.pdf) | Harris, LoG, DoG                                                   |
 | 3. | 8.10.2026  | [Lokální zájmové body a oblasti II](slides/pvi-03-features.pdf) | SIFT, approx. NN, SURF, MSER, ORB a další                          |
 | 4. | 15.10.2026 | [Zarovnání obrazů](slides/pvi-04-registration.pdf)              | geometrické transformace a odhad, RANSAC, Hough, detekce, panorama |
+| 5. | 29.10.2026 | [Kalibrace kamery, stereo](slides/pvi-05-stereo.pdf)            | lin. model, kalibrace, stereo, epipolární geometrie, triangulace   |
 
 
 ## Cvičení
